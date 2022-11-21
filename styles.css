@@ -1,3 +1,32 @@
 * {
-    color: blue;
+    color: orange;
+    background-color: #999999;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+    width: 100vw;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.navItem {
+    border-radius: 10%;
+    padding: 8px;
+    font-size: 40px;
+}
+
+.welcome {
+    font-size: 64px;
+    width: 66vw;
+    margin: auto;
+
+}
+
+a {
+    text-decoration: none;
 }
